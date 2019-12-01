@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Features</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="design/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="design/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="design/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="design/favicon_io/site.webmanifest">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">API Superstore</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">Sign Up</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="features.html">Features</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="testimonials.html">Testimonials</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Features
+    </h1>
+
+    <button class="accordion">Links to the best API from all over the web</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac orci phasellus egestas tellus. Dictum fusce ut placerat orci nulla pellentesque dignissim. Augue eget arcu dictum varius duis at. Ut tristique et egestas quis ipsum. Sit amet est placerat in egestas erat imperdiet. Imperdiet proin fermentum leo vel orci porta non. Porttitor massa id neque aliquam vestibulum morbi blandit. Dui id ornare arcu odio ut. Ipsum dolor sit amet consectetur adipiscing elit duis tristique.</p>
+</div>
+
+<button class="accordion">Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</button>
+<div class="panel">
+  <p>Nibh nisl condimentum id venenatis a condimentum. Diam maecenas ultricies mi eget mauris pharetra et ultrices neque. Ipsum faucibus vitae aliquet nec ullamcorper sit. In aliquam sem fringilla ut morbi tincidunt augue interdum velit. Amet nisl suscipit adipiscing bibendum est. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Sed tempus urna et pharetra pharetra massa massa ultricies. Auctor eu augue ut lectus arcu bibendum at. Sem nulla pharetra diam sit amet nisl suscipit. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Tincidunt id aliquet risus feugiat in ante metus dictum at. Et tortor at risus viverra adipiscing.</p>
+</div>
+
+<button class="accordion">Convenient catalog</button>
+<div class="panel">
+  <p>Phasellus egestas tellus rutrum tellus pellentesque eu. Adipiscing elit ut aliquam purus sit amet. Rhoncus mattis rhoncus urna neque. At augue eget arcu dictum. Sit amet venenatis urna cursus eget nunc. Eget gravida cum sociis natoque penatibus et magnis dis parturient. A scelerisque purus semper eget duis at. In cursus turpis massa tincidunt dui ut ornare. Faucibus a pellentesque sit amet porttitor eget. Turpis cursus in hac habitasse platea dictumst quisque sagittis purus. Gravida in fermentum et sollicitudin ac orci. Dolor sit amet consectetur adipiscing. Lobortis mattis aliquam faucibus purus in massa tempor. Eleifend mi in nulla posuere sollicitudin aliquam. Dignissim diam quis enim lobortis. Sit amet risus nullam eget felis eget nunc lobortis mattis.</p>
+</div>
+
+<button class="accordion">Elegant shopping experience</button>
+<div class="panel">
+  <p>
+      Amet est placerat in egestas. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Hac habitasse platea dictumst vestibulum rhoncus. Quis blandit turpis cursus in hac habitasse. Arcu risus quis varius quam quisque id diam. Arcu cursus vitae congue mauris rhoncus. Egestas integer eget aliquet nibh praesent tristique magna. Quisque sagittis purus sit amet volutpat consequat. Netus et malesuada fames ac turpis egestas. Senectus et netus et malesuada fames ac. Odio ut enim blandit volutpat. Id aliquet risus feugiat in ante metus dictum. Ut etiam sit amet nisl purus. Adipiscing elit ut aliquam purus sit amet luctus venenatis.</p>
+</div>
+<style>
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  </style>
+  
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+  </script>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+      <link href="css/style.css" rel="stylesheet">
+      <div class="container">
+        <div class="footer-flex">
+            <p class="footer-item-flex text-white">206-555-1234</p>
+            <p class="footer-item-flex text-white">info@apisuperstore.com</p>
+            <p class="fotter-item-flex text-white">Seattle, WA, USA</p>
+        </div>
+        </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
