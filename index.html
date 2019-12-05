@@ -23,22 +23,24 @@
 </head>
 
 <body>
-
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
           <style>
-              h3 {
+              navbar-brand {
                 font-family:'Courier New', Courier, monospace;
                 font-size: 30px;
                 color: teal;
+                text-align: right;
               }
               li {
                 font-family:'Courier New', Courier, monospace;
                 color: white;
               }
               </style>
-              <h3 class="navbar-brand" href="index.html">API Superstore</h3>
+               <div class="nav-item navbar-brand">
+                  <a class="nav-link navbar-brand" href="index.html">API Superstore</a>
+               </div>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="page-links">
               <li class="nav-item signupnav">
@@ -83,7 +85,37 @@
           h2 {
             font-size: 40px;
             font-family:'Courier New', Courier, monospace;
-            color: blueviolet;
+            -webkit-animation: color-change 0.85s infinite;
+    -moz-animation: color-change 0.85s infinite;
+    -o-animation: color-change 0.85s infinite;
+    -ms-animation: color-change 0.85s infinite;
+    animation: color-change 0.85s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: rgb(37, 98, 228); }
+    50% { color: cyan; }
+    100% { color: teal; }
+}
+@-moz-keyframes color-change {
+    0% { color: rgb(37, 98, 228); }
+    50% { color: cyan; }
+    100% { color: teal; }
+}
+@-ms-keyframes color-change {
+    0% { color: rgb(37, 98, 228); }
+    50% { color: cyan; }
+    100% { color: teal; }
+}
+@-o-keyframes color-change {
+    0% { color: rgb(37, 98, 228); }
+    50% { color: cyan; }
+    100% { color: teal; }
+}
+@keyframes color-change {
+    0% { color: rgb(37, 98, 228); }
+    50% { color: cyan; }
+    100% { color: teal; }
           }
           p {
             font-size: 20px; font-family:'Courier New', Courier, monospace;

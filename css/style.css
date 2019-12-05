@@ -7,6 +7,7 @@
   html,
   body {
     height: 100vh;
+    background-color: rgb(240, 251, 255);
   }
   .center {
     display: flex;
@@ -120,7 +121,12 @@ color: white;
 }
 .navbar-brand {
   text-align: right;
-  ;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: teal;
+  text-align: right;
+  font-style: oblique;
+  font-weight: bold;
 }
 
 .footer-flex {
@@ -138,17 +144,81 @@ color: white;
 
   .fade
   {
-          opacity:0.5;
+          opacity:1;
   }
   .fade:hover
   {
-          opacity:1;
+          opacity:0.5;
+          transition:all 0.4s ease;
   }
   
   .signupnav:hover {
-    
+
       -webkit-transform: scale(0.8);
       -ms-transform: scale(0.8);
       transform: scale(0.8);
 }
-  
+.column {
+  -webkit-column-count: 3; 
+  -moz-column-count: 3; 
+  column-count: 3;
+  column-rule-style: solid;
+  column-rule-color: blue;
+  display: inline;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+  .div1 {
+
+box-sizing: border-box;
+text-align: center;
+    border: 1px solid violet;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .div2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+padding: 10px;
+box-sizing: border-box;
+text-align: justify;
+    border: 1px solid teal;
+letter-spacing: 1.5px;
+  }
+  .div3 {
+padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid cyan;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-indent: 50px;
+  }
+  .color1:hover
+{
+        background:#d065e6;
+        transition:all 0.4s ease;
+        color: white;
+}
+.color2:hover
+{
+        background:#155e99;
+        color: white;
+        transition:all 0.4s ease;
+}
+.color3:hover
+{
+        background:#1ab1b1;
+        color: white;
+        transition:all 0.4s ease;
+}
+
