@@ -89,5 +89,66 @@ button:hover {
     width: 100%;
   }
 }
-  
+.center {
+  text-align: center;
+} 
+ul.page-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color:rgb(71, 182, 185);
+}
+.page-links li {
+  float: left;
+}
+.page-links a {
+  display: block;
+  background-color: rgb(2, 160, 160);
+  color: white;
+  text-align: center;
+  padding: 13px 16px;
+  text-decoration: none;
+}
+.page-links a:hover {
+background-color: rgb(54, 124, 124);
+color: white;
+}
+.page-links .active {
+  background-color:rgb(192, 229, 253);
+  color: blueviolet;
+}
+.navbar-brand {
+  text-align: right;
+  ;
+}
 
+.footer-flex {
+  display:flex;
+  justify-content: space-between;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  
+  }
+  .footer-item-flex {
+  flex: 0 1 auto;
+  
+  }
+
+  .fade
+  {
+          opacity:0.5;
+  }
+  .fade:hover
+  {
+          opacity:1;
+  }
+  
+  .signupnav:hover {
+    
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(0.8);
+}
+  
