@@ -9,19 +9,34 @@
     height: 100vh;
     background-color: rgb(240, 251, 255);
   }
-  .center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  video,
-    iframe {
+
+  video, 
+    iframe{
       border: 5px solid teal;
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      position: relative;
     }
+    .responsive-video {
+      padding-top:40%;
+      position:relative;
+      height:0;
+      
+  }
+   .responsive-video iframe, .responsive-video object, .responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+      
+  }
     
     .accordion {
-      background-color: #eee;
-      color: #444;
+      background-color: rgb(30, 156, 156);
+      color: rgb(235, 236, 236);
       cursor: pointer;
       padding: 18px;
       width: 100%;
@@ -32,7 +47,7 @@
     }
     
     .active, .accordion:hover {
-      background-color: #ccc;
+      background-color: rgb(11, 108, 126);
     }
 
     * {box-sizing: border-box}
@@ -70,7 +85,7 @@ button:hover {
 }
 
 .cancelbtn, .signupbtn {
-  float: left;
+  float: center;
   width: 50%;
 }
 
@@ -172,14 +187,16 @@ color: white;
 }
   .div1 {
 
-box-sizing: border-box;
-text-align: center;
-    border: 1px solid violet;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    box-sizing: border-box;
+    text-align: center;
+        border: 1px solid violet;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-decoration: none;
+
   }
   .div2 {
     margin-top: 20px;
@@ -191,6 +208,7 @@ box-sizing: border-box;
 text-align: justify;
     border: 1px solid teal;
 letter-spacing: 1.5px;
+text-decoration: none;
   }
   .div3 {
 padding: 10px;
@@ -208,17 +226,45 @@ padding: 10px;
         background:#d065e6;
         transition:all 0.4s ease;
         color: white;
+        text-decoration: none
 }
 .color2:hover
 {
         background:#155e99;
         color: white;
         transition:all 0.4s ease;
+        text-decoration: none;
 }
+
 .color3:hover
 {
         background:#1ab1b1;
         color: white;
         transition:all 0.4s ease;
 }
+a:link{
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover a:active{
+  text-decoration: none;
+}
+a { color: inherit; } 
+
+a:active {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: inherit;
+  padding: 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-family:'Courier New', Courier, monospace;
+}
+
 
