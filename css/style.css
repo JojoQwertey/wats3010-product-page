@@ -74,19 +74,27 @@ hr {
 
 
 
-button:hover {
-  opacity:1;
+.signupbtn:hover {
+  background-color: rgb(250, 189, 34);
+  color: rgb(44, 73, 233);
 }
-
-
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: blue;
-}
-
-.cancelbtn, .signupbtn {
+.signupbtn {
   float: center;
   width: 50%;
+  cursor: pointer;
+  display: inline-block;
+  background-color: gold;
+  border: none;
+  padding: 5px;
+  transition: all 0.5s;
+  border-radius: 15px;
+  box-shadow: 0 8px rgb(231, 176, 25);
+  outline: none;
+}
+.signupbtn:active {
+  background-color: rgb(248, 195, 62);
+  box-shadow: 0 5px rgb(211, 155, 3);
+  transform: translateY(4px);
 }
 
 .container {
@@ -191,16 +199,16 @@ color: white;
     text-align: center;
         border: 1px solid violet;
         padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         margin-right: 20px;
         margin-left: 20px;
         text-decoration: none;
 
   }
   .div2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 20px;
 padding: 10px;
@@ -215,8 +223,8 @@ padding: 10px;
     box-sizing: border-box;
     border: 1px solid cyan;
     text-align: justify;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 20px;
     text-indent: 50px;
